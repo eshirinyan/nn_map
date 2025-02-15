@@ -1,0 +1,33 @@
+{
+  "homeCamera": {
+     "north": 55.761528,  // Closer to the south
+     "east": 44.1173,   // Closer to the west
+     "south": 56.3946,  // Closer to the north
+     "west": 43.8667    // Closer to the east
+ },
+   "catalog": [
+
+ {
+   "id": "DL4Av6wY5X",
+   "type": "3d-tiles",
+   "url": "test/nn_buildings_fme_20250215/tileset.json",
+   "name": "nn 3d buildings",
+   "show": true
+ },
+ {
+    "id": "fabdem","name": "nn_fabdem", "type": "cesium-terrain","url": "test/terrain_nn_bertt"
+  
+ },
+ {
+  "type": "wms",
+  "name": "NN resurs 2021",
+  "url": "https://marchi.nextgis.com/api/resource/97/wms",
+  "layers": "resurs_70cm_rendered_image",
+  "id": "nn_sat_wms"
+  },   
+   ],
+   "workbench": ["DL4Av6wY5X","fabdem","nn_sat_wms"], "viewerMode": "3d", "baseMaps": {
+    "defaultBaseMapId": "basemap-positron"
+    }
+  }
+ 
