@@ -5,6 +5,27 @@
      "south": 56.3946,  // Closer to the north
      "west": 43.8667    // Closer to the east
  },
+ "initialCamera":{
+   "west":43.9602652943449,
+   "south":56.31773710468924,
+   "east":43.99985693596976,
+   "north":56.33097606028632,
+   "position":{
+      "x":2550571.921838191,
+      "y":2460572.198238039,
+      "z":5286469.869308749
+   },
+   "direction":{
+      "x":0.1291653997513419,
+      "y":0.48849517716427027,
+      "z":-0.8629535105637639
+   },
+   "up":{
+      "x":0.5248061882695622,
+      "y":0.7047022428415511,
+      "z":0.47746540575005064
+   }
+  },
    "catalog": [
 
  {
@@ -28,6 +49,10 @@
    ],
    "workbench": ["DL4Av6wY5X","fabdem","nn_sat_wms"], "viewerMode": "3d", "baseMaps": {
     "defaultBaseMapId": "basemap-positron"
-    }
+    },
+  "settings": {
+    "depthTestAgainstTerrainEnabled": true,
+    "alwaysShowTimeline": true
+  }
   }
  
