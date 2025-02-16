@@ -34,7 +34,7 @@
    "url": "test/nn_buildings_fme_20250215/tileset.json",
    "name": "nn 3d buildings",
    "show": true,
-   "shadows": "CAST_AND_RECEIVE"
+   "shadows": "BOTH"
  },
  {
     "id": "fabdem","name": "nn_fabdem", "type": "cesium-terrain","url": "test/terrain_nn_bertt"
