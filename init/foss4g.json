@@ -31,7 +31,7 @@
  {
    "id": "DL4Av6wY5X",
    "type": "3d-tiles",
-   "url": "test/nn_buildings_fme_20250215/tileset.json",
+   "url": "https://raw.githubusercontent.com/eshirinyan/three_sample/refs/heads/main/3dtiles_nn_pg2b3dm_20250327/tileset.json",
    "name": "nn 3d buildings",
    "show": true,
    "shadows": "BOTH"
