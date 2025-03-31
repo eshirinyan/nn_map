@@ -40,6 +40,13 @@
     "id": "fabdem","name": "nn_fabdem", "type": "cesium-terrain","url": "test/terrain_nn_bertt"
   
  },
+  {
+  "type": "wms",
+  "name": "viewshed hram voznesenya gospodnya",
+  "url": "https://marchi.nextgis.com/api/resource/100/wms",
+  "layers": "viewshed_hram_vosnesenya_gospodnya",
+  "id": "nn_viewshed_1"
+  },
  {
   "type": "wms",
   "name": "NN resurs 2021",
@@ -48,7 +55,7 @@
   "id": "nn_sat_wms"
   },   
    ],
-   "workbench": ["DL4Av6wY5X","fabdem","nn_sat_wms"], "viewerMode": "3d", "baseMaps": {
+   "workbench": ["DL4Av6wY5X","fabdem","nn_viewshed_1","nn_sat_wms"], "viewerMode": "3d", "baseMaps": {
     "defaultBaseMapId": "basemap-positron"
     },
   "settings": {
