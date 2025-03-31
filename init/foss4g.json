@@ -46,7 +46,7 @@
       "url": "https://raw.githubusercontent.com/eshirinyan/nn_map/refs/heads/main/test/viewshed_leftbank_2m.geojson",
       "id": "v_left",
       "style": {
-        "marker-size": "32",
+        "marker-size": "24",
         "marker-color": "red",
         "marker-symbol": "viewpoint"
       }
