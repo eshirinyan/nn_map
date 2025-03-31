@@ -44,7 +44,7 @@
   "type": "wms",
   "name": "viewshed hram voznesenya gospodnya",
   "url": "https://marchi.nextgis.com/api/resource/100/wms",
-  "layers": "viewshed_hram_vosnesenya_gospodnya",
+  "layers": "viewshed_hram_vosnesenya_gospodnya_polygon",
   "id": "nn_viewshed_1"
   },
  {
