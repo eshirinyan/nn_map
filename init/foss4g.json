@@ -40,6 +40,18 @@
     "id": "fabdem","name": "nn_fabdem", "type": "cesium-terrain","url": "test/terrain_nn_bertt"
   
  },
+ {
+      "name": "view points left bank",
+      "type": "geojson",
+      "url": "https://raw.githubusercontent.com/eshirinyan/nn_map/refs/heads/main/test/viewshed_leftbank_2m.geojson",
+      "id": "v_left",
+      "style": {
+        "marker-size": "32",
+        "marker-color": "#ff3333",
+        "marker-symbol": "viewpoint"
+      }
+   
+ },
   {
   "type": "wms",
   "name": "viewshed hram voznesenya gospodnya",
@@ -55,7 +67,7 @@
   "id": "nn_sat_wms"
   },   
    ],
-   "workbench": ["DL4Av6wY5X","fabdem","nn_viewshed_1","nn_sat_wms"], "viewerMode": "3d", "baseMaps": {
+   "workbench": ["DL4Av6wY5X","v_left","fabdem","nn_viewshed_1","nn_sat_wms"], "viewerMode": "3d", "baseMaps": {
     "defaultBaseMapId": "basemap-positron"
     },
   "settings": {
