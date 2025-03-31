@@ -47,10 +47,9 @@
       "id": "v_left",
       "style": {
         "marker-size": "32",
-        "marker-color": "#ff3333",
+        "marker-color": "red",
         "marker-symbol": "viewpoint"
       }
-   
  },
   {
   "type": "wms",
