@@ -48,10 +48,10 @@
       "color": {
          "conditions": [
             ["${vis_value} === undefined", "color('grey')"],
-            ["${vis_value} >= 0.8", "color('#800026')"],   
-            ["${vis_value} >= 0.6", "color('#FD1D4C')"],   
-            ["${vis_value} >= 0.4", "color('#F03B20')"],   
-            ["${vis_value} >= 0.2", "color('#FD8D3C')"],   
+            ["${vis_value} >= 0.6", "color('#fc0303')"],   
+            ["${vis_value} >= 0.5", "color('#fc03ca')"],   
+            ["${vis_value} >= 0.4", "color('#ba03fc')"],   
+            ["${vis_value} >= 0.3", "color('#1c03fc')"],   
             ["${vis_value} >= 0", "color('#FECC5C')"],   
             ["true","color('#FFFFB2')"]    
                         ]
