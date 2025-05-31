@@ -41,6 +41,8 @@
    "type": "3d-tiles",
    "url": "https://raw.githubusercontent.com/eshirinyan/three_sample/refs/heads/main/3dtiles_nn_vis_pg2b3dm_20250531/tileset.json",
    "name": "nn vis facades",
+   "colorBlendMode": "REPLACE",
+   "colorBlendAmount": 1.0,
    "style": {
       "color": {
          "conditions": [
