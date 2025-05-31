@@ -41,8 +41,6 @@
    "type": "3d-tiles",
    "url": "https://raw.githubusercontent.com/eshirinyan/three_sample/refs/heads/main/3dtiles_nn_vis_pg2b3dm_20250531/tileset.json",
    "name": "nn vis facades",
-   "colorBlendMode": "REPLACE",
-   "colorBlendAmount": 1.0,
    "style": {
       "color": {
          "conditions": [
@@ -68,7 +66,7 @@
                    ]
                  }
                ],
-   "show": true
+   "show": false
  },
  {
     "id": "fabdem","name": "nn_fabdem", "type": "cesium-terrain","url": "test/terrain_nn_bertt"
@@ -100,7 +98,7 @@
   "id": "nn_sat_wms"
   },   
    ],
-   "workbench": ["DL4Av6wY5X","v_left","fabdem","nn_viewshed_1","nn_sat_wms","DL4Av6wY5X_vis"], "viewerMode": "3d", "baseMaps": {
+   "workbench": ["DL4Av6wY5X","DL4Av6wY5X_vis","v_left","fabdem","nn_viewshed_1","nn_sat_wms"], "viewerMode": "3d", "baseMaps": {
     "defaultBaseMapId": "basemap-positron"
     },
   "settings": {
