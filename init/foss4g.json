@@ -53,8 +53,20 @@
             ["true",                      "color('#FFFFB2', ${opacity})"]    
                         ]
                   }
-            },
-   "show": false
+            }, "legends": [
+                 {
+                   "title": "t1600_max",
+                   "items": [
+                     { "color": "#800026", "title": "over 28.5" },
+                     { "color": "#FD1D4C", "title": "28 - 28.5" },
+                     { "color": "#F03B20", "title": "27.5 - 28" },
+                     { "color": "#FD8D3C", "title": "27 - 27.5" },
+                     { "color": "#FECC5C", "title": "26 - 27" },
+                     { "color": "#FFFFB2", "title": "below 26" }
+                   ]
+                 }
+               ],
+   "show": true
  },
  {
     "id": "fabdem","name": "nn_fabdem", "type": "cesium-terrain","url": "test/terrain_nn_bertt"
