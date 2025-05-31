@@ -41,28 +41,30 @@
    "type": "3d-tiles",
    "url": "https://raw.githubusercontent.com/eshirinyan/three_sample/refs/heads/main/3dtiles_nn_vis_pg2b3dm_20250531/tileset.json",
    "name": "nn vis facades",
+   "colorBlendMode": "REPLACE",
+   "colorBlendAmount": 1.0,
    "style": {
       "color": {
          "conditions": [
-            ["${vis_value} === undefined", "color('grey', ${opacity})"],
-            ["${vis_value} >= 0.8", "color('#800026', ${opacity})"],   
-            ["${vis_value} >= 0.6", "color('#FD1D4C', ${opacity})"],   
-            ["${vis_value} >= 0.4", "color('#F03B20', ${opacity})"],   
-            ["${vis_value} >= 0.2", "color('#FD8D3C', ${opacity})"],   
-            ["${vis_value} >= 0", "color('#FECC5C', ${opacity})"],   
-            ["true",                      "color('#FFFFB2', ${opacity})"]    
+            ["${vis_value} === undefined", "color('grey')"],
+            ["${vis_value} >= 0.8", "color('#800026')"],   
+            ["${vis_value} >= 0.6", "color('#FD1D4C')"],   
+            ["${vis_value} >= 0.4", "color('#F03B20')"],   
+            ["${vis_value} >= 0.2", "color('#FD8D3C')"],   
+            ["${vis_value} >= 0", "color('#FECC5C')"],   
+            ["true","color('#FFFFB2')"]    
                         ]
                   }
             }, "legends": [
                  {
-                   "title": "t1600_max",
+                   "title": "vis",
                    "items": [
-                     { "color": "#800026", "title": "over 28.5" },
-                     { "color": "#FD1D4C", "title": "28 - 28.5" },
-                     { "color": "#F03B20", "title": "27.5 - 28" },
-                     { "color": "#FD8D3C", "title": "27 - 27.5" },
-                     { "color": "#FECC5C", "title": "26 - 27" },
-                     { "color": "#FFFFB2", "title": "below 26" }
+                     { "color": "#800026", "title": "over 0.8" },
+                     { "color": "#FD1D4C", "title": "0.8" },
+                     { "color": "#F03B20", "title": "0.6" },
+                     { "color": "#FD8D3C", "title": "0.4" },
+                     { "color": "#FECC5C", "title": "0.2" },
+                     { "color": "#FFFFB2", "title": "0.0" }
                    ]
                  }
                ],
