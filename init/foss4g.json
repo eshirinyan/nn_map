@@ -44,6 +44,7 @@
    "colorBlendMode": "REPLACE",
    "colorBlendAmount": 1.0,
    "style": {
+      "show": "${feature['vis_value']} > 0.1",
       "color": {
          "conditions": [
             ["${vis_value} === undefined", "color('grey')"],
