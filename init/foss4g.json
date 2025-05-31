@@ -39,7 +39,7 @@
   {
    "id": "DL4Av6wY5X_vis",
    "type": "3d-tiles",
-   "url": "https://raw.githubusercontent.com/eshirinyan/three_sample/refs/heads/main/3dtiles_nn_vis_pg2b3dm_20250531/tileset.json",
+   "url": "https://raw.githubusercontent.com/eshirinyan/three_sample/refs/heads/main/3dtiles_nn_vis_filtered_pg2b3dm_20250531/tileset.json",
    "name": "nn vis facades",
    "colorBlendMode": "REPLACE",
    "colorBlendAmount": 1.0,
@@ -60,12 +60,11 @@
                  {
                    "title": "vis",
                    "items": [
-                     { "color": "#800026", "title": "over 0.8" },
-                     { "color": "#FD1D4C", "title": "0.8" },
-                     { "color": "#F03B20", "title": "0.6" },
-                     { "color": "#FD8D3C", "title": "0.4" },
-                     { "color": "#FECC5C", "title": "0.2" },
-                     { "color": "#FFFFB2", "title": "0.0" }
+                     { "color": "#a10000", "title": "> 0.6" },
+                     { "color": "#fc0303", "title": "0.5" },
+                     { "color": "#fc03ca", "title": "0.4" },
+                     { "color": "#ba03fc", "title": "0.3" },
+                     { "color": "#1c03fc", "title": "0.0" }
                    ]
                  }
                ],
